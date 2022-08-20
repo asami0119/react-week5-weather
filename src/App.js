@@ -10,6 +10,7 @@ function App() {
           <a
             href="https://www.linkedin.com/in/asami-uehara-704999223/"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Asami Uehara
@@ -18,6 +19,7 @@ function App() {
           <a
             href="https://github.com/asami0119/react-week5-weather"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             GitHub
