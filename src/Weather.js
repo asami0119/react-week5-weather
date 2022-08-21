@@ -22,7 +22,7 @@ export default function Weather(props) {
   if (weatherData.loaded) {
     function handleChange(event) {
       event.preventDefault();
-      setCity(event.target.value);
+      //setCity(event.target.value);
     }
 
     return (
