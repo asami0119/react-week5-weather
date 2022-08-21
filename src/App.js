@@ -1,10 +1,13 @@
+import Weather from "./Weather";
+
 import "./App.css";
+import "./Weather.css";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <button className="btn btn-primary">hello</button>
+        <Weather />
         <p>
           This project was coded by
           <a

@@ -1,0 +1,19 @@
+.weather,
+.weather2 {
+  margin: 0 auto;
+}
+
+.weather {
+  text-align: center;
+  max-width: 150px;
+}
+
+.weather2 {
+  text-align: left;
+  max-width: 400px;
+  border: 1px solid navy;
+}
+
+.form {
+  text-align: center;
+}
