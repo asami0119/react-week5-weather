@@ -41,3 +41,16 @@
 .icon {
   display: inline-block;
 }
+
+.F,
+.C {
+  color: burlywood;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.F:hover,
+.C:hover {
+  color: coral;
+  font-weight: 700;
+}
