@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Weather from "./Weather";
 import sunnyImage from "./images/sunny.image.jpg";
 

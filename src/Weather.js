@@ -9,6 +9,7 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function showInfo(response) {
+    let units = "metric";
     console.log(response.data);
     setWeatherData({
       loaded: true,
