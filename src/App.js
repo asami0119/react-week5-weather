@@ -29,6 +29,15 @@ function App() {
             >
               {" "}
               GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://shimmering-malabi-14b9c1.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              hosted on Netlify
             </a>
           </p>
           <header className="App-header"></header>
