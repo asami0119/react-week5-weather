@@ -29,10 +29,10 @@
 p {
   text-align: center;
 }
-p > a {
+p a {
   color: darkorange;
 }
 
-p > a:hover {
+p a:hover {
   color: indianred;
 }

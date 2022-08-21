@@ -8,6 +8,7 @@ export default function Weather() {
           type="serach"
           placeholder="Enter a city..."
           className="Search mt-5"
+          autoFocus="on"
         />{" "}
         <input
           type="submit"
@@ -16,7 +17,9 @@ export default function Weather() {
       </form>
       <div className="weather mt-2 mb-3">
         <h5>Toronto</h5>
-        <h1>23°C</h1>
+        <div>
+          <span className="temperature">23</span>°C
+        </div>
         <p>Sunny</p>
         <div className="row mb-5">
           <div className="col-6">H:30°C</div>
@@ -24,24 +27,25 @@ export default function Weather() {
         </div>
       </div>
 
-      <div className="weather2 mb-3">
+      <div className="weather2 mb-3 shadow">
         <div className="row">
           <div className="col-6">
             <ul>
-              <li>Monday 07:00</li>
+              <li className="mt-2 mb-2">Monday 07:00</li>
               <li>
                 <img
                   src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
                   alt="sunny"
+                  className="mt-2 mb-2"
                 />
               </li>
             </ul>
           </div>
           <div className="col-6">
             <ul>
-              <li>Precipitation: 15%</li>
-              <li>Humidity: 40%</li>
-              <li>Wind: 2km/h</li>
+              <li className="mt-2 mb-2">Precipitation: 15%</li>
+              <li className="mt-2 mb-2">Humidity: 40%</li>
+              <li className="mt-2 mb-2">Wind: 2km/h</li>
             </ul>
           </div>
         </div>

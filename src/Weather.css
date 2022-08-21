@@ -7,6 +7,12 @@
   margin: 0 auto;
 }
 
+.weather,
+.weather2 li {
+  list-style: none;
+  text-transform: capitalize;
+}
+
 .weather {
   text-align: center;
   max-width: 150px;
@@ -16,8 +22,19 @@
   text-align: left;
   max-width: 400px;
   border: 1px solid navy;
+  border-radius: 3px;
+}
+
+.Search {
+  color: black;
+  border-radius: 2px;
+  line-height: 30px;
 }
 
 .Submit {
   background-color: cornflowerblue;
+}
+
+.temperature {
+  font-size: 50px;
 }
