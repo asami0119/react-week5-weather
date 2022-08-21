@@ -2,10 +2,17 @@ import React from "react";
 
 export default function Weather() {
   return (
-    <div className="container mt-5">
+    <div className="container">
       <form className="form">
-        <input type="serach" placeholder="Enter a city..." className="Search" />
-        <input type="submit" className="Submit btn btn-primary" />
+        <input
+          type="serach"
+          placeholder="Enter a city..."
+          className="Search mt-5"
+        />{" "}
+        <input
+          type="submit"
+          className="Submit btn btn-primary btn-sm p-1 mb-1"
+        />
       </form>
       <div className="weather mt-2 mb-3">
         <h5>Toronto</h5>
@@ -25,7 +32,7 @@ export default function Weather() {
               <li>
                 <img
                   src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
-                  alt="summy"
+                  alt="sunny"
                 />
               </li>
             </ul>
