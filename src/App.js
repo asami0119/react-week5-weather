@@ -9,7 +9,7 @@ function App() {
     <div className="App" style={{ backgroundImage: `url(${sunnyImage})` }}>
       <div className="overlay">
         <div className="container">
-          <Weather />
+          <Weather defaultCity="Tokyo" />
           <p>
             This project was coded by
             <a

@@ -10,7 +10,6 @@
 .weather,
 .weather2 li {
   list-style: none;
-  text-transform: capitalize;
 }
 
 .weather {
