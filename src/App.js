@@ -1,6 +1,5 @@
 import Weather from "./Weather";
 import sunnyImage from "./images/sunny.image.jpg";
-import coldImage from "./images/cold.image.jpg";
 
 import "./App.css";
 import "./Weather.css";
