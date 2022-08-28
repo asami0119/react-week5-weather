@@ -1,0 +1,11 @@
+.WeatherForecast-Temperature-max {
+  color: darksalmon;
+}
+.WeatherForecast-Temperature-min {
+  color: dodgerblue;
+  font-weight: 600;
+}
+
+.unit {
+  font-size: x-small;
+}
