@@ -15,6 +15,6 @@
 }
 
 .WeatherForecast-Temperature-min {
-  opacity: 40%;
   color: darkblue;
+  font-weight: 600;
 }
