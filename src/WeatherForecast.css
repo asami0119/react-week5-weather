@@ -1,12 +1,13 @@
 .WeatherForecast {
   margin: 0 auto;
   display: flex;
+  justify-content: space-evenly;
   box-sizing: border-box;
   text-align: center;
   margin-top: 70px;
   margin-bottom: 20px;
-  max-width: 800px;
-  border: 1px solid navy;
+  max-width: 900px;
+  border: 1px solid lightblue;
   border-radius: 3px;
 }
 
@@ -15,6 +16,6 @@
 }
 
 .WeatherForecast-Temperature-min {
-  color: darkblue;
+  color: dodgerblue;
   font-weight: 600;
 }

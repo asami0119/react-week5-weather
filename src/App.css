@@ -1,6 +1,6 @@
 :root {
   --section-overlay: rgb(253, 242, 221);
-  --background-ovelay: rgba(0, 0, 0, 0.3);
+  --background-ovelay: rgba(0, 0, 0, 0.5);
 }
 * {
   margin: 0;

@@ -17,10 +17,14 @@ export default function WeatherForecast(props) {
     console.log(forecast);
     return (
       <div className="WeatherForecast">
-        <div className="row">
-          <div className="col">
-            <WeatherForecastDay data={forecast[0]} />
-          </div>
+        <div className="row m-5">
+          {forecast.map(function (dailyForecast, index) {
+            return (
+              <div className="col me-2" key={index}>
+                <WeatherForecastDay data={dailyForecast} />
+              </div>
+            );
+          })}
         </div>
       </div>
     );

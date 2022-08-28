@@ -1,13 +1,16 @@
 import React from "react";
 import Weather from "./Weather";
-import sunnyImage from "./images/sunny.image.jpg";
+import Image from "./images/sunrise.bg.jpg";
 
 import "./App.css";
 import "./Weather.css";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url(${sunnyImage})` }}>
+    <div
+      className="App"
+      style={{ backgroundImage: `url(${Image})`, backgroundSize: `cover` }}
+    >
       <div className="overlay">
         <div className="container">
           <Weather defaultCity="Toronto" />
